@@ -1,0 +1,44 @@
+### IntelliJ IDEA ###
+.idea/
+*.iws
+*.iml
+*.ipr
+
+# Evitar archivos de configuración específicos del usuario
+.idea/**/workspace.xml
+.idea/**/tasks.xml
+.idea/**/dictionaries
+.idea/**/shelf
+
+### Build ###
+/build/
+*/build/
+*.class
+*.log
+
+### Gradle ###
+.gradle/
+**/out/
+!gradle/wrapper/gradle-wrapper.jar
+gradle-app.setting
+
+### Kotlin ###
+*.kotlin_module
+
+### Logs ###
+*.log
+
+### OS ###
+.DS_Store
+Thumbs.db
+
+### Temporary Files ###
+*.tmp
+*.swp
+*.swo
+*.bak
+*.orig
+
+### VSCode (por si usas ambas cosas) ###
+.vscode/
+
