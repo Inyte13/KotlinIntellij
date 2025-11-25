@@ -10,10 +10,11 @@ fun main() {
   // Reemplaza el value
   numeros[2] = 7 // [0, 1, 7, 3, 4]
 
-  // numeros.lenght
+  // size === lenght
   numeros.size
 
   // Recorriendo con forEach
+  numeros.forEach { num -> println(num) }
 
 
 }
